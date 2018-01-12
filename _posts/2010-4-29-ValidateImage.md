@@ -49,12 +49,10 @@ public static bool IsValidImage(Stream imageStream)
 }
 ```
 
-In [next post][1] we will apply the same technique to validate video streams
+In [next post]({% post_url 2010-5-4-ValidateVideo %}) we will apply the same technique to validate video streams.
 
 ------------------------------
 
 Software is fun! Happy coding!
 
 ------------------------------
-
-[1]: https://google.com

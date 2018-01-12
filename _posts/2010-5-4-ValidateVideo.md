@@ -5,7 +5,7 @@ title: Validate Video In C#
 
 A simple way to check if a given stream has a video header.
 
-In my previous post I showed you [how to validate an image/picture file][1]. Today I will add a video support to this validation and I will refactor the code a bit. Full source code is bellow:
+In my previous post I showed you [how to validate an image/picture file]({% post_url 2010-4-29-ValidateImage %}). Today I will add a video support to this validation and I will refactor the code a bit. Full source code is bellow:
 
 ```c#
 public enum FileType
@@ -118,5 +118,3 @@ public static class FileValidator
 Software is fun! Happy coding!
 
 ------------------------------
-
-[1]: https://google.com
