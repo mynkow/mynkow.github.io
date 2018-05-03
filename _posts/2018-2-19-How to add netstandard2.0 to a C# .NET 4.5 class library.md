@@ -111,7 +111,7 @@ You could see the relevant part for .NET 4.5 in the full `csproj` snippet bellow
 
     <!--netstandard2.0-->
     <PropertyGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
-        <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0;LIBLOG_PORTABLE;NETSTANDARD2_0</DefineConstants>
+        <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0;LIBLOG_PORTABLE</DefineConstants>
     </PropertyGroup>
     <ItemGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
         <PackageReference Include="LibLog" Version="4.2.6" />
